@@ -325,3 +325,69 @@ Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,
 ----------^
  38 |         href: http://hass.daniel-li ...
  39 |         icon: https://cdn.jsdelivr. ...
+[2024-01-20T14:53:29.101Z] error: <httpProxy> Error calling http://pihole/admin/api.php...
+[2024-01-20T14:53:29.103Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole'
+  }
+]
+[2024-01-20T14:53:35.019Z] error: <httpProxy> Error calling http://pihole/admin/api.php...
+[2024-01-20T14:53:35.020Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole'
+  }
+]
+[2024-01-20T14:54:08.392Z] error: <httpProxy> Error calling http://pihole/admin/api.php...
+[2024-01-20T14:54:08.393Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole'
+  }
+]
+[2024-01-20T14:54:44.722Z] error: <httpProxy> Error calling http://pihole/admin/api.php...
+[2024-01-20T14:54:44.722Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole'
+  }
+]
+[2024-01-20T15:12:14.903Z] error: <httpProxy> Error calling http://pihole/admin/api.php...
+[2024-01-20T15:12:14.903Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole'
+  }
+]
+[2024-01-20T15:12:37.928Z] error: <httpProxy> Error calling http://pihole/admin/api.php...
+[2024-01-20T15:12:37.930Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole'
+  }
+]
