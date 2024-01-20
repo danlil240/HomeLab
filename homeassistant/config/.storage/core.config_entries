@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "730dc89230787be34874ac517a5bfe1c",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5a721240f8ff8d4a764be577b728cadf",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "DC:46:28:43:C7:49",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "DC:46:28:43:C7:49",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ef069595e9744b1c2ad35f6a0b600706",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "65608fdb660917c796ef854017563edd",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e7cfd091b2375ef05cdc01a8af7069e3",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "174a771e877adbc77fa2e11c49ae6af0",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

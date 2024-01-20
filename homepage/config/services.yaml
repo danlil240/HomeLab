@@ -1,0 +1,41 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Management:
+
+       
+    - Nginx Proxy Manager:
+        href: https://nginx.daniel-lilintal.com
+        # description: Nginx is the best
+        icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nginx-proxy-manager.png
+    - Wetty:
+        href: https://terminal.daniel-lilintal.com
+        # description: Nginx is the best
+        icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wetty.png
+    - Pi-Hole:
+        href: https://pihole.daniel-lilintal.com/admin
+        # description: Nginx is the best
+        icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pi-hole.png
+        widget:
+            type: pihole
+            url: http://pihole
+            key: f8b0e872e9038c5362dc4ecb64084e0b22e91e5efc124960854d2921a03a33f0 # optional
+    - Portainer:
+        href: https://portainer.daniel-lilintal.com
+        icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/portainer.png
+        widget:
+            type: portainer
+            url: http://portainer:9000
+            env: 1
+            key: ptr_2fr/hCFImhiavnSt9sZvoPyIZQx50pDUrw/TBP5PJLg=
+
+
+
+- Utilities:
+    - Home-Assistant:
+        href: http://hass.daniel-lilintal.com/
+        icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/home-assistant.png
+    - Wordpress:
+        href: http://wp.daniel-lilintal.com/
+        icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wordpress.png

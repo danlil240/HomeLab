@@ -1,0 +1,28 @@
+version: '3'
+
+networks:
+  frontend:
+    external: true
+
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    command: -H unix:///var/run/docker.sock
+    container_name: portainer
+    restart: unless-stopped
+    # ports:
+      # - "9443:9443" 
+    environment:
+      - VIRTUAL_HOST=portainer.daniel-lilintal.com
+      - VIRTUAL_PORT=9000
+    # security_opt:
+    #   - no-new-privileges:true
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./portainer-data:/data
+
+    networks:
+      frontend:
+        ipv4_address: 10.5.0.3
+

@@ -1,0 +1,23 @@
+version: '3'
+
+
+networks:
+  frontend:
+    external: true
+
+
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - 40000:40000
+    networks:
+      frontend:
+        ipv4_address: 10.5.0.8

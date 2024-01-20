@@ -1,0 +1,21 @@
+version: '3.0'
+
+networks:
+  frontend:
+    external: true
+
+services:
+  wetty:
+    image: wettyoss/wetty:latest
+    container_name: wetty
+    restart: unless-stopped
+    # ports:
+    #   - 3000:3000
+    command:
+      - --base=/
+      - --ssh-host=10.0.0.196
+    networks:
+      frontend:
+        ipv4_address: 10.5.0.7
+
+      

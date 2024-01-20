@@ -1,0 +1,25 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+title: Daniel-Lilintal Home Page
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+background: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+favicon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duckdns.png
+theme: dark
+headerStyle: underlined
+color: sky
+layout:
+  Management:
+    style: row
+    columns: 2
+    icon: https://cdn-icons-png.flaticon.com/512/252/252035.png
+  Utilities:
+    style: row
+    columns: 2
+
+useEqualHeights: true

@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth",
+  "data": {
+    "users": [
+      {
+        "id": "9235b9e7c4e84bee9590b5735bb1e60e",
+        "group_ids": [
+          "system-read-only"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Content",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": true,
+        "is_active": true,
+        "name": "Daniel",
+        "system_generated": false,
+        "local_only": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "system-admin",
+        "name": "Administrators"
+      },
+      {
+        "id": "system-users",
+        "name": "Users"
+      },
+      {
+        "id": "system-read-only",
+        "name": "Read Only"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "b23249ca91e846f69939f6cbfb320861",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "daniel"
+        }
+      }
+    ],
+    "refresh_tokens": [
+      {
+        "id": "300fbe87893742cc8d964480593d02c2",
+        "user_id": "9235b9e7c4e84bee9590b5735bb1e60e",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2024-01-10T15:33:23.430956+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "f89de367be366f46323f20c9ba92b43c7089cbf89c9c0f8b3733af86e643fd0a446f18d1963fce3b68562bb6eeb3a3a3ab71212acfb4f1274259703148f41c71",
+        "jwt_key": "53713447b8053b8f09fc94ae74aaed6f022039a25041250eb7713a51ae2d3132b88a71b5d92503664fbc4a98056479634b16e72e1cbdd0786ffaafb253f8d4d1",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "credential_id": null,
+        "version": "2024.1.2"
+      },
+      {
+        "id": "74fe57a05af84cffb2a1bf6114c48c0b",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "http://10.0.0.196:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:34:14.316928+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "83f61266aab504efb98a45e7ad65529b4045ea86acd3b5d76fc438e0390fecf661a6188fa9034f8f7cfd71a067d8bb26f6326daa82cca06067c5098c7b9e51f2",
+        "jwt_key": "8f36214830881a1323cdbd0df11701715f05169f8eae2e75b3b41e0ddd95560792f4fd5eb6f50c5f564353bdd6f2361389c264b9592763089e67e853df92cafa",
+        "last_used_at": "2024-01-10T15:34:14.317115+00:00",
+        "last_used_ip": "10.0.1.144",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "35e7735436a6452497a4c0298b390330",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:36:07.791162+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "8f9515715fbb8b143a603b1615a80fea5f19cfd7a8c9305c7e1b0877ec2ac1dcb54fb511c9959ec8f94bbf5412ea8cab73e34414b7c1a813284e3a379dbaea09",
+        "jwt_key": "7327174dd2ff930d682fb132ac739e6c96c62d15b781997e837ab2c1d14ebe343544b541de10f38a11cc8c4821a5c508dd3bc7b598a78a8f5bd550a78c9dc3b7",
+        "last_used_at": "2024-01-10T15:36:07.791374+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "1e120593249a41608de79dfe7f8f8749",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "http://10.0.0.196:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:36:30.394584+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "d213a5a06ce4a982468fdf9f9be1d96ad547f6a3c666a33efbea5b1134e21fb10a50d9adbf0f026012c1fb30ac75494f65c7d25e4d64257423880aad8784b09f",
+        "jwt_key": "25d09526ed9fcfc72d5eccf9ab456677e74210cdc25d039fd3972062e710f3910e240bb2b762ad61769e4e30d10fef68bc8f4baf73e819b8acbb25694b1c0333",
+        "last_used_at": "2024-01-10T15:36:30.394796+00:00",
+        "last_used_ip": "10.0.1.144",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "774c2f2310b74784b67db768c1332d1a",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "http://10.0.0.196:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:46:56.295695+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "1127d20de855c246c04d66976d94d5f9cd3568b1f9780c802c52967e69fadf80bf5974c740650b70bfd62ee8291d109a39fb7087d00d999991e6b310103c7ea7",
+        "jwt_key": "49cbdf25e1ab61c4790e289f9bb8ed8b6b4bf63d5e9944902f551c7793fc58d1527a8d416c789bf5a74024ce9793b851623d06ece35c777260568fde5a4fa919",
+        "last_used_at": "2024-01-10T15:46:56.295922+00:00",
+        "last_used_ip": "10.0.1.144",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "2603c340c4a143e1a4806209fb33024b",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:49:58.937944+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "4d5d349ef4aa1a6dc106c1c875ecb70b5ac4c93fa8a03831af1648e155bb5982badd1b1ddf4f1422eedd38ef86042ba5ae21ec944693f3d6ddefefea9250a9a8",
+        "jwt_key": "866e5d12d4f0f501f525ba025933463989c8e199b7c0ac263450820ea1f44f25acfb5bf56f011bad8b2244e5a3ec7b51ddc2617067b6c25e1ff09dbe08de645c",
+        "last_used_at": "2024-01-10T15:49:58.938148+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "6d74ad54924c4adab9dba2edbf5ce458",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:53:10.661154+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "896d0f77103e551446288edc8bc0195e3ce71d96d4ec45d19c5826623d3a4a6bcea2b8c8844f3ecb5c071e645feab1444eb6466eccceaf942790554a845f32e7",
+        "jwt_key": "57eb93c861f1682f694b9d686662b1f1b355dfd620a57652d1fb622ec7b4485218563d004cb056f0c00672a21f465d827d11c9835dc4823bb6bf3dae94cb5907",
+        "last_used_at": "2024-01-10T15:53:10.661338+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "c1b4998d5e9c4511ad5e620922834b5e",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:54:25.271308+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "94735af549776f75f643ff59ac61838e00cce4cff7412f092a7cd3c468981f230c93ab880ac73e87cc49dc21bb5d81b7c7959781a0f9ace10b0ca9f71725ed59",
+        "jwt_key": "d9fcdcb9f67f7c3dd0784343089a5160f53e6822bbd4cedacde4678b647515f7bd96e938796ada5cf2fb1d58b13daaed52439f094e233d9bcb64e9fdf154cf90",
+        "last_used_at": "2024-01-10T15:54:25.271486+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "75aa91a6951246e2ba7f87f24b905e9d",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T15:54:31.336590+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "342686d1393bf588e4cf070d8ace02cfeec97b5bea56efac2cb5b4446f1b2509a24d5a90aa9f4ab9a5847ba9a2163f3ea8844d820ff3c8b9f1a5ee6220b9d41e",
+        "jwt_key": "96ea4264ecc7a4941a4d05ec43a05443935f696119577a7ff8de4dfac69c94963e3fac2ded332d52e86d5a363282280d98b0d694f354829de66562d787c8b8d4",
+        "last_used_at": "2024-01-10T16:47:20.187708+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "6d5549d271bf4a53b4314f29a43529de",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T17:02:25.941473+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "f35986cedaa525e959967cc4292d03731d374b7290d063e10cb973974c9cf17424acb86135b1399b7086d5c6463a86c4dc15552896a89c701edea27989f5fcad",
+        "jwt_key": "3b2f80a016279682856efeebc0480f9c081c28b2463186c24791a1623b4b6147df3a92770c33536b81f71b363252a94d3405211cf6522beaaab7c23a0738d63d",
+        "last_used_at": "2024-01-10T17:02:25.941663+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "0320130316344fd2b7a837688c8efc89",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-15T16:39:53.899075+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "bd79f28a9676f567cbf43d5e0230042a16df956c3f7098d9cc7201471822c7259ae60036ec31dd542e891b2d69b0a394bd4a11f0a5a74d8c7edf6945cf4b65c7",
+        "jwt_key": "e624c4f5a5748ba42262b5d5a5b0cf701932221c58c696d18aa64db58272a1c6a4520922b5ee664e250bf9b2a404d64afe7437304a084d86d34f13c57b133e0c",
+        "last_used_at": "2024-01-15T16:39:53.899254+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "09b2269517324a23a627950a75b62c25",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-15T16:42:52.893637+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "e791cd85af3c2ad06cfe917b0f4c71730f7470f24838848549ed10f72f760ff2ffc1ba3da50435bcfed9745f8599d0597f65da0af63a6cb0b9f4d45c845129a0",
+        "jwt_key": "7e0c59128b0965288b0ca72e934943f9ed5132a31a4ac94194571dcf261aa7d7acaf6c70f51aaf77cc8081d1f68170f2ae601302b93f33b73336b173e86cbff3",
+        "last_used_at": "2024-01-15T16:42:52.893848+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "7ee6f0ba58384e17b625d89b768b48c4",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-19T09:42:15.397168+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "89aa347633c30ba124f055c21ed0b55babbe03a04f4d1ce0ff9c7a18e1f623f3ca9d92f7cba83f9986c14d0d5abba1ded1f7972ebfc5eb4b1386a0e000793715",
+        "jwt_key": "9d3437ee1e3a41b22f886b16caeae259f52445d3aaceaa7da9afffbbdef647d444d2cdfbe08092f62efcfbe5fd5c830d74438aaeed68c4b1d80c7904b811f950",
+        "last_used_at": "2024-01-19T09:42:15.397341+00:00",
+        "last_used_ip": "10.5.0.2",
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      }
+    ]
+  }
+}

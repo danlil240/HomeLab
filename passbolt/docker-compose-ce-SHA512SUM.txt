@@ -1,0 +1,1 @@
+1d4e2eb93e6b7ffb0edfa464d56c8e1eb07d4eaeae3865ee5707f9a17d5c0aaf18f39977eea3b3ce86be93c8d626acfdd479c1898831dae032ab00d269092359  docker-compose-ce.yaml

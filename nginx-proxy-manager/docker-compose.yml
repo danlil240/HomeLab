@@ -1,0 +1,49 @@
+version: '3.8'
+
+networks:
+  frontend:
+    external: true
+
+
+services:
+  npm_app:
+    container_name: npm
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    # ports:
+    #   # These ports are in format <host-port>:<container-port>
+    #   - '80:80' # Public HTTP Port
+    #   - '443:443' # Public HTTPS Port
+    #   - '81:81' # Admin Web Port
+      # Add any other Stream port you want to expose
+      # - '21:21' # FTP
+    environment:
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
+      MYSQL_DATABASE: "${MYSQL_DATABASE}"
+      MYSQL_USER: "${MYSQL_USER}"
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD}"
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    depends_on:
+      - npm_db
+    networks:
+      frontend:
+        ipv4_address: 10.5.0.5
+
+  npm_db:
+    container_name: npm_db
+    image: 'jc21/mariadb-aria:latest'
+    restart: unless-stopped  
+    volumes:
+      - ./mysql:/var/lib/mysql
+    networks:
+      frontend:
+        ipv4_address: 10.5.0.6
+    
+    environment:
+      DB_MYSQL_HOST: "${DB_MYSQL_HOST}"
+      DB_MYSQL_PORT: "${DB_MYSQL_PORT}"
+      DB_MYSQL_USER: "${DB_MYSQL_USER}"
+      DB_MYSQL_PASSWORD: "${DB_MYSQL_PASSWORD}"
+      DB_MYSQL_NAME: "${DB_MYSQL_NAME}"

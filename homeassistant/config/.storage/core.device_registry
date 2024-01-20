@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "730dc89230787be34874ac517a5bfe1c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "1d0addaa050fbb672587da7018133e22",
+        "identifiers": [
+          [
+            "sun",
+            "730dc89230787be34874ac517a5bfe1c"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "5a721240f8ff8d4a764be577b728cadf"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "DC:46:28:43:C7:49"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d0540",
+        "id": "0de9845f5719433487deb2b7e49d1c4b",
+        "identifiers": [],
+        "manufacturer": null,
+        "model": "0a2a (8087:0a2a)",
+        "name_by_user": null,
+        "name": "hci0 (DC:46:28:43:C7:49)",
+        "serial_number": null,
+        "sw_version": "daniel-MINI-S",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "174a771e877adbc77fa2e11c49ae6af0"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d60d83bc621638e4eb648778a0e4fe07",
+        "identifiers": [
+          [
+            "met",
+            "174a771e877adbc77fa2e11c49ae6af0"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}
