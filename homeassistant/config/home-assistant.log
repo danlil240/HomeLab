@@ -1,7 +1,2 @@
-2024-01-16 08:34:30.966 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
-2024-01-16 08:34:30.997 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=8 from 2024-01-14 06:22:10.974365)
-2024-01-16 08:34:38.647 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'ClientConnectorError'
-2024-01-16 08:34:55.243 ERROR (MainThread) [homeassistant.components.homeassistant_alerts] Error requesting homeassistant_alerts data: Cannot connect to host alerts.home-assistant.io:443 ssl:default [Try again]
-2024-01-16 08:34:55.286 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'ClientConnectorError'
-2024-01-16 08:35:10.578 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'ClientConnectorError'
-2024-01-16 08:35:35.095 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'ClientConnectorError'
+2024-02-09 10:58:48.297 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2024-02-09 10:58:48.331 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=18 from 2024-02-08 16:27:15.066511)

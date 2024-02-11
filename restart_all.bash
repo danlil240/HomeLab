@@ -1,4 +1,12 @@
 #!/bin/bash
+
+do_update=false
+
+if [ "$1" = "update" ]; then
+    do_update=true
+    echo "updating..."
+fi
+
 ROOT_DIR=/home/daniel/projects/docker
 
 docker stop $(docker ps -a -q) 2>/dev/null
@@ -14,8 +22,8 @@ docker network create frontend \
 
 
 # Array of Docker Compose directories and their corresponding container names
-compose_directories=("cloudflare-tunnel" "homeassistant" "pihole" "portainer" "nginx-proxy-manager" "wetty")
-container_names=("cloudflared-tunnel" "homeassistant" "pihole" "portainer" "npm" "wetty")
+compose_directories=("cloudflare-tunnel" "homeassistant" "pihole-unbound-docker" "portainer" "wetty" "homepage" "wordpress" "nginx-proxy-manager")
+container_names=("cloudflared-tunnel" "homeassistant" "pihole" "portainer" "wetty" "homepage" "wordpress-site" "npm")
 
 # Function to check if a container is running
 is_container_running() {
@@ -29,7 +37,12 @@ for ((i=0; i<${#compose_directories[@]}; i++)); do
     container_name="${container_names[i]}"
 
     # Run Docker Compose for the current directory
-    cd "$ROOT_DIR/$compose_directory" && docker compose up -d
+    
+    cd "$ROOT_DIR/$compose_directory"
+    if [ "$do_update" = true ]; then
+    docker compose pull
+    fi
+    docker compose up -d
 
     # Wait for the container to be running*
     while ! is_container_running "$container_name"; do

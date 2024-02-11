@@ -20,4 +20,4 @@ services:
       - 40000:40000
     networks:
       frontend:
-        ipv4_address: 10.5.0.8
+        ipv4_address: 10.5.0.9

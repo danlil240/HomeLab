@@ -66,6 +66,7 @@
         "jwt_key": "53713447b8053b8f09fc94ae74aaed6f022039a25041250eb7713a51ae2d3132b88a71b5d92503664fbc4a98056479634b16e72e1cbdd0786ffaafb253f8d4d1",
         "last_used_at": null,
         "last_used_ip": null,
+        "expire_at": null,
         "credential_id": null,
         "version": "2024.1.2"
       },
@@ -82,6 +83,7 @@
         "jwt_key": "8f36214830881a1323cdbd0df11701715f05169f8eae2e75b3b41e0ddd95560792f4fd5eb6f50c5f564353bdd6f2361389c264b9592763089e67e853df92cafa",
         "last_used_at": "2024-01-10T15:34:14.317115+00:00",
         "last_used_ip": "10.0.1.144",
+        "expire_at": 1712676854.317115,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -98,6 +100,7 @@
         "jwt_key": "7327174dd2ff930d682fb132ac739e6c96c62d15b781997e837ab2c1d14ebe343544b541de10f38a11cc8c4821a5c508dd3bc7b598a78a8f5bd550a78c9dc3b7",
         "last_used_at": "2024-01-10T15:36:07.791374+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1712676967.791374,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -114,6 +117,7 @@
         "jwt_key": "25d09526ed9fcfc72d5eccf9ab456677e74210cdc25d039fd3972062e710f3910e240bb2b762ad61769e4e30d10fef68bc8f4baf73e819b8acbb25694b1c0333",
         "last_used_at": "2024-01-10T15:36:30.394796+00:00",
         "last_used_ip": "10.0.1.144",
+        "expire_at": 1712676990.394796,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -130,6 +134,7 @@
         "jwt_key": "49cbdf25e1ab61c4790e289f9bb8ed8b6b4bf63d5e9944902f551c7793fc58d1527a8d416c789bf5a74024ce9793b851623d06ece35c777260568fde5a4fa919",
         "last_used_at": "2024-01-10T15:46:56.295922+00:00",
         "last_used_ip": "10.0.1.144",
+        "expire_at": 1712677616.295922,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -146,6 +151,7 @@
         "jwt_key": "866e5d12d4f0f501f525ba025933463989c8e199b7c0ac263450820ea1f44f25acfb5bf56f011bad8b2244e5a3ec7b51ddc2617067b6c25e1ff09dbe08de645c",
         "last_used_at": "2024-01-10T15:49:58.938148+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1712677798.938148,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -162,6 +168,7 @@
         "jwt_key": "57eb93c861f1682f694b9d686662b1f1b355dfd620a57652d1fb622ec7b4485218563d004cb056f0c00672a21f465d827d11c9835dc4823bb6bf3dae94cb5907",
         "last_used_at": "2024-01-10T15:53:10.661338+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1712677990.661338,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -178,6 +185,7 @@
         "jwt_key": "d9fcdcb9f67f7c3dd0784343089a5160f53e6822bbd4cedacde4678b647515f7bd96e938796ada5cf2fb1d58b13daaed52439f094e233d9bcb64e9fdf154cf90",
         "last_used_at": "2024-01-10T15:54:25.271486+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1712678065.271486,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -194,6 +202,7 @@
         "jwt_key": "96ea4264ecc7a4941a4d05ec43a05443935f696119577a7ff8de4dfac69c94963e3fac2ded332d52e86d5a363282280d98b0d694f354829de66562d787c8b8d4",
         "last_used_at": "2024-01-10T16:47:20.187708+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1712681240.187708,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -210,6 +219,7 @@
         "jwt_key": "3b2f80a016279682856efeebc0480f9c081c28b2463186c24791a1623b4b6147df3a92770c33536b81f71b363252a94d3405211cf6522beaaab7c23a0738d63d",
         "last_used_at": "2024-01-10T17:02:25.941663+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1712682145.941663,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -226,6 +236,7 @@
         "jwt_key": "e624c4f5a5748ba42262b5d5a5b0cf701932221c58c696d18aa64db58272a1c6a4520922b5ee664e250bf9b2a404d64afe7437304a084d86d34f13c57b133e0c",
         "last_used_at": "2024-01-15T16:39:53.899254+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1713112793.899254,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -242,6 +253,7 @@
         "jwt_key": "7e0c59128b0965288b0ca72e934943f9ed5132a31a4ac94194571dcf261aa7d7acaf6c70f51aaf77cc8081d1f68170f2ae601302b93f33b73336b173e86cbff3",
         "last_used_at": "2024-01-15T16:42:52.893848+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1713112972.893848,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       },
@@ -258,6 +270,24 @@
         "jwt_key": "9d3437ee1e3a41b22f886b16caeae259f52445d3aaceaa7da9afffbbdef647d444d2cdfbe08092f62efcfbe5fd5c830d74438aaeed68c4b1d80c7904b811f950",
         "last_used_at": "2024-01-19T09:42:15.397341+00:00",
         "last_used_ip": "10.5.0.2",
+        "expire_at": 1713433335.397341,
+        "credential_id": "b23249ca91e846f69939f6cbfb320861",
+        "version": "2024.1.2"
+      },
+      {
+        "id": "837e792a2dd3473d84ac1258c69c1982",
+        "user_id": "1cac1523a20342d0878afe4d2ee5dd69",
+        "client_id": "https://hass.daniel-lilintal.com/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-27T07:01:26.073429+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "3416c3094a07dcbce0ae58a97bd24d74443b9f648cf74cffd9a47e5f17898186e3d24c175661640a97ef9d01dd9d5003a3a3b2c3b9809929752e7a6e479453d0",
+        "jwt_key": "10210309f58c8aa7d6f872c540a424b9e074896ea22ffbc43e368250e3ee1681be19ab33419e5d840466c63bb4077e5dedc2751142447aaabe1e5da5dac5b8ac",
+        "last_used_at": "2024-01-27T07:01:26.073585+00:00",
+        "last_used_ip": "10.5.0.2",
+        "expire_at": 1714114886.073585,
         "credential_id": "b23249ca91e846f69939f6cbfb320861",
         "version": "2024.1.2"
       }

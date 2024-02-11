@@ -391,3 +391,14 @@ Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,
     hostname: 'pihole'
   }
 ]
+[2024-01-26T15:43:50.471Z] error: <httpProxy> Error calling http://pihole/admin/api.php...
+[2024-01-26T15:43:50.472Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pihole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pihole'
+  }
+]

@@ -1,0 +1,14 @@
+10.5.0.2    cloudflare_tunnel
+10.5.0.3    portainer
+10.5.0.4    -
+10.5.0.5    npm
+10.5.0.6    npm_db
+10.5.0.7    wetty
+10.5.0.8    homepage
+10.5.0.9    homeassistant
+10.5.0.10   nodered
+10.5.0.11   wordpress_db
+10.5.0.12   phpmyadmin
+10.5.0.13   unbound
+10.5.0.14   pihole
+10.5.0.15   wordpress

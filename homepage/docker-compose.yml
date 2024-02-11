@@ -14,7 +14,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro # optional, for docker integrations
     restart: unless-stopped
     networks:
-      - frontend
+      frontend:
+        ipv4_address: 10.5.0.8
 
 networks:
   frontend:

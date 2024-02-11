@@ -25,7 +25,7 @@
           }
         },
         "original_device_class": "timestamp",
-        "original_icon": "mdi:sun-clock",
+        "original_icon": null,
         "original_name": "Next dawn",
         "platform": "sun",
         "supported_features": 0,
@@ -55,7 +55,7 @@
           }
         },
         "original_device_class": "timestamp",
-        "original_icon": "mdi:sun-clock",
+        "original_icon": null,
         "original_name": "Next dusk",
         "platform": "sun",
         "supported_features": 0,
@@ -85,7 +85,7 @@
           }
         },
         "original_device_class": "timestamp",
-        "original_icon": "mdi:sun-clock",
+        "original_icon": null,
         "original_name": "Next midnight",
         "platform": "sun",
         "supported_features": 0,
@@ -115,7 +115,7 @@
           }
         },
         "original_device_class": "timestamp",
-        "original_icon": "mdi:sun-clock",
+        "original_icon": null,
         "original_name": "Next noon",
         "platform": "sun",
         "supported_features": 0,
@@ -145,7 +145,7 @@
           }
         },
         "original_device_class": "timestamp",
-        "original_icon": "mdi:sun-clock",
+        "original_icon": null,
         "original_name": "Next rising",
         "platform": "sun",
         "supported_features": 0,
@@ -175,7 +175,7 @@
           }
         },
         "original_device_class": "timestamp",
-        "original_icon": "mdi:sun-clock",
+        "original_icon": null,
         "original_name": "Next setting",
         "platform": "sun",
         "supported_features": 0,
@@ -207,7 +207,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:theme-light-dark",
+        "original_icon": null,
         "original_name": "Solar elevation",
         "platform": "sun",
         "supported_features": 0,
@@ -239,7 +239,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sun-angle",
+        "original_icon": null,
         "original_name": "Solar azimuth",
         "platform": "sun",
         "supported_features": 0,
@@ -269,7 +269,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sun-clock",
+        "original_icon": null,
         "original_name": "Solar rising",
         "platform": "sun",
         "supported_features": 0,
